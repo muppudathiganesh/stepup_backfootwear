@@ -77,7 +77,8 @@ TEMPLATES = [
 WSGI_APPLICATION = 'backend.wsgi.application'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # React Vite dev server
+    "https://stepup-frontend-ashy.vercel.app/",
+   
 ]
 
 REST_FRAMEWORK = {
